@@ -5,7 +5,7 @@ public class Result {
     	
         if(m<0 || m>100) 
         	return "invalid";
-        else if(m<40) 
+        else if(m<50) 
         	return "fail";
         else 
         	return "pass";

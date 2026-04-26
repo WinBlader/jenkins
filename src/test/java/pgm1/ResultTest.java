@@ -7,7 +7,7 @@ public class ResultTest {
 
     @Test
     public void testPass() {
-        Assert.assertEquals(Result.display(55), "pass");
+        Assert.assertEquals(Result.display(50), "pass");
     }
 
     @Test
